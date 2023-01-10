@@ -32,9 +32,6 @@ url: 'https://scapulomancy.github.io'
 github:
   username: scapulomancy           # change to your github username
 
-twitter:
-  username: twitter_username            # change to your twitter username
-
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
@@ -43,6 +40,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/scapulomancy     # change to your github homepage
+    - https://www.linkedin.com/in/joseph-brisson-6a374a200/
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -70,7 +68,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
+theme_mode: dark
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -197,3 +195,6 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+plugins:
+  - jekyll-jupyter-notebook
